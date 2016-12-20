@@ -1,0 +1,14 @@
+body {
+  font-family: 'Righteous', cursive;
+  width: 250px;
+  background-color: #393D3F;
+  color: #fff
+}
+
+.button-wrap button {
+  border: 2px solid transparent;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 10px auto;
+}
