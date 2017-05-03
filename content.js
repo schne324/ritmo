@@ -13,9 +13,8 @@
 
     const mediaElements = getMediaElements();
 
-    mediaElements.forEach(me => {
+    mediaElements.forEach((me) => {
       me.playbackRate = parseFloat(speed);
-      console.log(`setting speed to ${speed}`, me);
     });
   });
 }());
