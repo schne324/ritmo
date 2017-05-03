@@ -1,0 +1,21 @@
+{
+  "name": "ritmo",
+  "homepage": "https://github.com/schne324/ritmo",
+  "authors": [
+    "Harris Schneiderman <schne324@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "electric-slide": "^0.0.1",
+    "jquery": "^3.1.1"
+  }
+}

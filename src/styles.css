@@ -1,0 +1,50 @@
+
+.wrap {
+  font-family: 'Righteous', cursive;
+  width: 400px;
+  background-color: #393D3F;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+.wrap h1 {
+  margin: 5px auto;
+  font-size: 30px;
+}
+
+.wrap h2 {
+  margin: 2px auto;
+  font-size: 22px
+}
+
+.slider-label {
+  margin: 5px auto;
+  text-align: center;
+  user-select: none;
+}
+
+
+.slider {
+  margin: 35px auto;
+  width: 300px;
+  height: 10px;
+  background: #eee;
+  box-shadow: inset 1px 1px 6px;
+  box-sizing: border-box;
+  position: relative;
+  user-select: none;
+}
+
+.slider .handle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  margin-top: -2.5px;
+  box-sizing: border-box;
+  user-select: none;
+  transition: all .3s;
+}
